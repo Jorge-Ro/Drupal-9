@@ -1,0 +1,7 @@
+customod.generate:
+  path: '/customodpath'
+  defaults:
+    _controller: '\Drupal\customod\Controller\customodController::generate'
+    _title: 'TITULO DEL CUSTOMOD'
+  requirements:
+    _permission: 'access content'
