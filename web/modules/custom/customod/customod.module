@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Añado hook_help().
+ */
+
+function customod_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.customod':
+      return t('
+      <h2>Página de Ayuda de Customod</h2>
+      <p>Texto con descripción de la ayuda para el módulo customod</p>');
+  }
+}

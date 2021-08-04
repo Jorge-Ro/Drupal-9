@@ -1,0 +1,5 @@
+name: Customod
+description: 'Módulo custom para testear desarrollo de modulos custom'
+type: module
+package: Custom
+core_version_requirement: 9.x
